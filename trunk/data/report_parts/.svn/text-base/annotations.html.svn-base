@@ -1,0 +1,46 @@
+
+
+<div id="annotation" class="section">
+<table>
+  <tbody>
+    <tr class="head">
+      <td colspan="2">Annotations and Raw Data</td>
+    </tr>
+    <tr class="line1">
+      <td colspan="2">
+      <div style="text-align: justify;">The analysis is based on the
+following raw intensites and annotations.<br>
+      <br>
+      </div>
+      </td>
+    </tr>
+    <tr class="line2">
+      <td width="50%">The <b>raw intensities</b> of all arrays</td>
+      <td width="50%">&nbsp;<a href="files/raw.txt">txt</a></td>
+    </tr>
+    <tr class="line2">
+      <td width="50%">Annotation of the <b>samples</b> for which
+hybridization was attempted</td>
+      <td width="50%">&nbsp;<a href="files/samples.html">html</a>, <a href="files/samples.xls">xls</a></td>
+    </tr>
+    <tr class="line2">
+      <td width="50%">Annotation successful <b>hybridizations</b> to
+gene arrays</td>
+      <td width="50%">&nbsp;<a href="files/arrays.html">html</a>, <a href="files/arrays.xls">xls</a></td>
+    </tr>
+    <tr class="line2">
+      <td width="50%">Annotation of the <b>probes</b> on the arrays</td>
+      <td width="50%">&nbsp;<a href="files/probes.xls">xls</a></td>
+    </tr>
+    <tr class="line2">
+      <td width="50%"><b>Gene sets</b> for which enrichment has been
+tested</td>
+      <td width="50%">&nbsp;<a href="files/gene_sets.xls">xls</a></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<br>
+<br>
+
