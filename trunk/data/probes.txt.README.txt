@@ -1,0 +1,5 @@
+**Nov 19 2010
+probes.txt for Illumina's beadarray platforms can be downloaded here:
+http://www.mediafire.com/file/o0t70tl5m1owjcf/templates_probes.txt_HERE.zip
+
+
