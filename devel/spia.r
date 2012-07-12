@@ -9,10 +9,11 @@ library(SPIA)
 
 
 #redo fit with updated JMP output
-fit2 <- fit
+source('illupipe_jmp.r')
 fit <- importJMP_fit(fn='_Pairwise comparisons within groups_tbuk_tbsa_mal_diffs_V3.txt', 
                      featureNames='ProbeID', contrastNames=c('C-HP','C-TB_UKtest','C-TB_UKtr', 'PTB_tr-LTB_va_SA'))
 
+# change gene name, ignore these lines.
 fit$genes <- fit2$genes
 rownames(fit$coefficients) <- rownames(fit2)
 rownames(fit$p.value) <- rownames(fit2)
