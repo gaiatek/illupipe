@@ -1,5 +1,13 @@
+##################################
+# SPIA wrapper functions         #
+#--------------------------------#
+#                                #
+##################################
+library(SPIA)
 
-## SPIA test
+
+
+
 #redo fit with updated JMP output
 fit2 <- fit
 fit <- importJMP_fit(fn='_Pairwise comparisons within groups_tbuk_tbsa_mal_diffs_V3.txt', 
@@ -10,8 +18,7 @@ rownames(fit$coefficients) <- rownames(fit2)
 rownames(fit$p.value) <- rownames(fit2)
 rownames(fit$fdr) <- rownames(fit2)
 rownames(fit$t) <- rownames(fit2)
-library(annDB,character.only=T)
-library(SPIA)
+
 
 
 results = decideTests(fit, )
